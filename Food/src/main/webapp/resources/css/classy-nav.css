@@ -17,7 +17,8 @@ body {
 
 ul,
 ol {
-  margin: 0; }
+  margin: auto; 
+  }
   ul li,
   ol li {
     list-style: none; }

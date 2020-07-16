@@ -1,21 +1,19 @@
+function openNav() { 
+		document.getElementById("mySidepanel").style.width = "500px";
+}
+function closeNav() {
+	document.getElementById("mySidepanel").style.width = "0";
+}
+
+
+
 (function ($) {
     'use strict';
     
-    $('.site-menu-toggle').click(function(){
-        var $this = $(this);
-        if ( $('body').hasClass('menu-open') ) {
-          $this.removeClass('open');
-          $('.js-site-navbar').fadeOut(400);
-          $('body').removeClass('menu-open');
-        } else {
-          $this.addClass('open');
-          $('.js-site-navbar').fadeIn(400);
-          $('body').addClass('menu-open');
-        }
-      });
     
     
     var browserWindow = $(window);
+    
 
 
     // :: 1.0 Preloader Active Code
